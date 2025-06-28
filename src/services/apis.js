@@ -70,3 +70,5 @@ export const settingsEndpoints = {
   CHANGE_PASSWORD_API: BASE_URL + "/auth/changepassword",
   DELETE_PROFILE_API: BASE_URL + "/profile/deleteProfile",
 }
+console.log("BASE_URL:", BASE_URL); // should print http://localhost:4000/api/v1
+
